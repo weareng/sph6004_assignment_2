@@ -1,0 +1,4 @@
+*.csv
+data1/*
+data/*
+notes_models/*
