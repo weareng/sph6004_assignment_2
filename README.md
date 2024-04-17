@@ -47,6 +47,7 @@ In this repository, our files are stored in the following format:
             2. `{prediction task}`: e.g. death, los
             3. `{dataset}`: e.g. traintest, validation
         4. e.g. `sph6004_assignment_2/static_dynamic_models/tcn/sd_tcn_los_validation.ipynb`
+        5. `sd_{name}_{prediction task}.keras` is the name of the trained model
 4. notes_models:
     1. Contain models that use notes features for prediction of death and LOS
     2. `n_{name}_{prediction task}_{dataset}.ipynb`
@@ -54,6 +55,7 @@ In this repository, our files are stored in the following format:
         2. `{prediction task}`: e.g. death, los
         3. `{dataset}`: e.g. traintest, validation
    3. e.g. `sph6004_assignment_2/notes_models/n_logreg_death_traintest.ipynb`
+   4. `n_{name}_{prediction task}.pkl` is the name of the trained model
 5. ensemble_models:
     1. Contain models that combines the output of both `sd_{best model name}_{prediction task}_{dataset}.ipynb` and `n_{best model name}_{prediction task}_{dataset}.ipynb` in prediction of death and LOS
     2. `ensb_{name}_{prediction task}_{dataset}.ipynb`
