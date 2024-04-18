@@ -62,4 +62,4 @@ In this repository, our files are stored in the following format:
         1. `{name}`: name of ensemble model, e.g. logreg, gnb
         2. `{prediction task}`: e.g. death, los
         3. `{dataset}`: e.g. traintest, validation
-    3. e.g. `sph6004_assignment_2/ensemble_models/ensb_gnb_los_validation.ipynb` 
+    3. e.g. `sph6004_assignment_2/ensemble_models/ensb_logreg_los_validation.ipynb` 
